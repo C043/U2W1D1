@@ -342,13 +342,14 @@ footer a {
 
   header div img {
     margin-bottom: 0;
+    vertical-align: middle;
   }
 
   header div p {
     display: inline-block;
     width: auto;
-    position: absolute;
     top: 5%;
+    vertical-align: middle;
   }
 
   header nav {
@@ -367,28 +368,38 @@ footer a {
 
   iframe {
     display: inline-block;
-    width: 49%;
+    width: 50%;
     height: 240px;
     margin-bottom: 0;
     padding: 0;
+    margin-right: -2px;
+    vertical-align: bottom;
   }
 
   section {
     display: inline-block;
-    width: 49%;
+    width: 50%;
+    margin-right: -2px;
     font-size: 1em;
     border-radius: 20px;
     height: 240px;
+    margin-bottom: 0;
+    vertical-align: bottom;
   }
 
   input {
     width: 60%;
   }
 
+  aside {
+    margin-top: 2em;
+  }
+
   aside div {
     display: inline-block;
-    width: 33%;
+    width: 33.3333%;
     margin: 0;
+    margin-right: -3px;
   }
 
   footer address {
